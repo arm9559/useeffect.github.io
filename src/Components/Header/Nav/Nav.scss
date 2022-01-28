@@ -1,0 +1,51 @@
+nav{
+    position: inherit;
+    height: 75px;
+    top:26px;
+    border-top:1px solid #43334D;
+    border-bottom:1px solid #43334D;
+    display: flex;
+    flex-direction: column;
+    .nav-child{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    div{
+        position: relative;
+        top:8px;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style-type: none;
+            font-size:14px;
+            li:nth-child(1){
+                color:#5B00FB;
+                border-top:1px solid #5B00FB;
+            }
+            li{
+                color:white;
+                cursor: pointer;
+            }
+        }
+    }
+    .nfts-container{
+        position: relative;
+        top:152px;
+        span{
+            color:white;
+        }
+        button{
+            background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+            border-radius: 46px;
+            border:none;
+            color:white;
+            width: 236px;
+            height: 49px;
+        }
+        button:hover{
+            color:white !important;
+        }
+    }
+}

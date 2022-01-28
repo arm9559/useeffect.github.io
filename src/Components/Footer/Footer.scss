@@ -1,0 +1,92 @@
+::placeholder{
+    font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* grey */
+
+color: #D0D0D0;
+
+}
+footer{
+    position: relative;
+    background-color:#09010D;
+    height:470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .form-container{
+        position: relative;
+        top:-150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h6{
+            color:white;
+        }
+        form{
+            width: 410px;
+            height: 48px;
+            display: flex;
+            justify-content: space-around;
+            .form-button{
+                /* gradient */
+                background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+                border-radius: 48px;
+                color:white;
+                bordeR:none;
+            }
+            input{
+                background:none;
+                border: 0.5px solid #D0D0D0 !important;
+                box-sizing: border-box;
+                border-radius: 48px;
+            }
+            input:focus{
+                background: none !important;
+            }
+        }
+    }
+    .footer-child{
+        display: flex;
+    }
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            color:white;
+            border-bottom: 1px solid white;
+        }
+        .ul-ul{
+            color:white;
+            display: flex;
+            flex-direction: column;
+            .ul-social-bar{
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                li:nth-child(2){
+                    display: flex;
+                }
+            }
+        }
+        .ul-social-bar-icons{
+            display: flex;
+            list-style: none;
+            grid-gap:15px;
+        }
+    }
+}
+.footer-child-down{
+    position: relative;
+    top:75px;
+    display: flex !important;
+    justify-content: space-around;
+}
